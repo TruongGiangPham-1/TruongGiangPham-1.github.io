@@ -1,0 +1,24 @@
+---
+layout: base
+---
+
+<div class="412-home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  <ul class="412-report-list">
+    <li>
+      {%- assign a1_date = "2024-01-29" | default: "%b %-d, %Y" -%}
+      <span class="412report-meta">{{ a1_date }}</span>
+      <h3>
+        <a class="412report-link" href="{{ '412-projects/A1'  | relative_url }}">
+            Lab 1
+        </a>
+      </h3>
+    </li>
+  </ul>
+
+</div>
