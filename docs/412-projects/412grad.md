@@ -113,7 +113,9 @@ Amongst the non-skipped frames, I stack four of them to form a final
 For better explanation, see the this blog [post](https://danieltakeshi.github.io/2016/11/25/frame-skipping-and-preprocessing-for-deep-q-networks-on-atari-2600-games/).
 
 ## Results
-The reward is computed every 10
+TODO: reward plot is 1 seeds currently since I am waiting for CC to finish.
+I couldn't make it to learn yet. Still alot of things to do that I listed in the 
+limitation.
 ### 1. Straight Road
 
 <p align="center">
@@ -126,7 +128,7 @@ The reward is computed every 10
 
 <figure>
     <img src="{{site.baseurl}}/assets/images/grad/PPO_straight_road.png" alt="maes" width="100%" height="auto">
-    <figcaption>Evaluation rewards</figcaption>
+    <figcaption>Evaluation rewards. red curve is the running average of all seeds.The gray curve is the individual seed.</figcaption>
 </figure>
 
 The gifs shows the evaluation episode
@@ -134,19 +136,24 @@ There is no learning going on as expected.
 Some of the reason why is mentioned in the limitation.
 
 ### 2. Small Loop
-
 <p align="center">
-  <img src="{{site.baseurl}}/assets/gifs/503Grad/small_loop1.gif" width="250"/>
-  <figcaption>Evaluation episode of a ppo agent in small loop</figcaption>
+  <img src="{{site.baseurl}}/assets/gifs/503Grad/video_small_loop_evalstep_10.gif" width="250"/>
+  <img src="{{site.baseurl}}/assets/gifs/503Grad/video_small_loop_evalstep_50.gif" width="250"/>
+  <img src="{{site.baseurl}}/assets/gifs/503Grad/video_small_loop_evalstep_200.gif" width="250"/>
+  <img src="{{site.baseurl}}/assets/gifs/503Grad/video_small_loop_evalstep_480.gif" width="250"/>
+  <figcaption>From Left to right: evaluation episodes after 10th, 50, 200th, 480th update iterations</figcaption>
 </p>
 
-<figure>
-    <img src="{{site.baseurl}}/assets/images/grad/PPO_small_loop.png" alt="maes" width="100%" height="auto">
-    <figcaption>Evaluation rewards</figcaption>
-</figure>
+<p align="center">
+    <img src="{{site.baseurl}}/assets/images/grad/PPO_small_loop_returns.png" alt="maes" width="500" >
+    <img src="{{site.baseurl}}/assets/images/grad/PPO_small_loop_duration.png" alt="maes" width="500" >
+</p>
 
-In small loop, the policy converged to the bot spinning in circle, reaching til 
-the end of the episode.
+Here are the evaluation metrics.
+The duration curve is the evaluation episode length before termination or truncation.
+The episode can be terminated if the bot goes out of bound. The truncation is because the bot exceeded the maximum episode length.
+Aforementioned, I set the maximum episode length to 10,000.
+In small loop, the policy converged to the bot spinning in circle until we fall off.
 
 ## Limitations and Challenges
 - The official gym-duckietown repository is really out of date and was challenging
@@ -167,13 +174,12 @@ I am not surprised that the agent was not able to learn well.
 
 
 ## Future Works
-
-
-There are too many hyperparameters in PPO.
-I am now curious to run an off-policy, continuous action RL algorithms like TD3.
+Fully tune the PPO algorithm. There are too many hyperparameters in PPO.
+I am now curious to try an off-policy, continuous action RL algorithms like TD3.
 TD3 works pretty good out of the box in my experience.
 TD3 being able to leverage replay buffer makes it more sample efficient too.
 
+Duckietown has alot of maps.
 
 
 ## References that I used
