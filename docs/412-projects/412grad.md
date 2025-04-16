@@ -121,7 +121,7 @@ The reward is computed every 10
   <img src="{{site.baseurl}}/assets/gifs/503Grad/video_map_straight_road_runlabel_1_evalstep_50_1744508651.gif" width="150"/>
   <img src="{{site.baseurl}}/assets/gifs/503Grad/video_map_straight_road_runlabel_1_evalstep_200_1744514144.gif" width="150"/>
   <img src="{{site.baseurl}}/assets/gifs/503Grad/video_map_straight_road_runlabel_1_evalstep_480_1744524288.gif" width="150"/>
-  <figcaption>From Left to right: evaluation frams at 10th, 50, 200th, 480th update iterations</figcaption>
+  <figcaption>From Left to right: evaluation episodes after 10th, 50, 200th, 480th update iterations</figcaption>
 </p>
 
 <figure>
@@ -129,13 +129,24 @@ The reward is computed every 10
     <figcaption>Evaluation rewards</figcaption>
 </figure>
 
+The gifs shows the evaluation episode
+There is no learning going on as expected.
+Some of the reason why is mentioned in the limitation.
+
 ### 2. Small Loop
-This one surprised me. I realized that the agent learnt
+
+<p align="center">
+  <img src="{{site.baseurl}}/assets/gifs/503Grad/small_loop1.gif" width="250"/>
+  <figcaption>Evaluation episode of a ppo agent in small loop</figcaption>
+</p>
 
 <figure>
     <img src="{{site.baseurl}}/assets/images/grad/PPO_small_loop.png" alt="maes" width="100%" height="auto">
     <figcaption>Evaluation rewards</figcaption>
 </figure>
+
+In small loop, the policy converged to the bot spinning in circle, reaching til 
+the end of the episode.
 
 ## Limitations and Challenges
 - The official gym-duckietown repository is really out of date and was challenging
