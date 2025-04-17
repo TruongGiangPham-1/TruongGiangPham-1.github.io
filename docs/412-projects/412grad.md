@@ -105,11 +105,10 @@ For better explanation, see the this blog [post](https://danieltakeshi.github.io
   <figcaption>From Left to right: evaluation episodes after 10th, 50, 200th, 480th update iterations</figcaption>
 </p>
 
-
-<figure>
-    <img src="{{site.baseurl}}/assets/images/grad/PPO_straight_road.png" alt="maes" width="100%" height="auto">
-    <figcaption>Evaluation rewards. red curve is the running average of all seeds.The gray curve is the individual seed.</figcaption>
-</figure>
+<p align="center">
+    <img src="{{site.baseurl}}/assets/images/grad/PPO_straight_road_returns.png" alt="maes" width="500" >
+    <img src="{{site.baseurl}}/assets/images/grad/PPO_straight_road_duration.png" alt="maes" width="500" >
+</p>
 
 I averaged across 3 seeds. Each seed is the grey curve. The red curve is the running average.
 
@@ -137,10 +136,12 @@ The duration curve reflects the length of each evaluation episode before termina
 In the small loop environment, the policy converged to a behavior where the bot spins in circles until it eventually falls off the track.
 
 ## Discussion
+Both the small_loop agent and the straight road agent's  episode length improves.
+This can be attributed to them learning to  stay on the road longer by oscillating
+back and forth as seen in the video.
+
 In both experimeent, learning is almost non-existence. 
 The undiscounted sum of rewards goes down during the course of training.
-
-Interestingly, the small_loop agent's episode length improves, but this can be interpret as it learnt to spin more without falling off the track. 
 
 ## Limitations and Challenges
 - The official gym-duckietown repository is really out of date and was challenging
