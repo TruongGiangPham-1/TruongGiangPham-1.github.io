@@ -5,10 +5,11 @@ permalink: 412-projects/grad/
 date: 2025-02-12 10:33:00 -0000
 ---
 Team member: Truong-Giang Pham
+
 Github : [link](https://github.com/TruongGiangPham-1/CMPUT503FinalProject/tree/main)
 
 ## Introduction
-Reinforcement learning methods have been used to control wheeled robots. The purpose of this grad project is to gain hands-on experience with the capabilities of the Proximal Policy Optimization (PPO) algorithm in learning and performing lane-following tasks. The initial goal was to compare it with a PID controller implementation, but that part was omitted from this project.
+Reinforcement learning methods have been used to control wheeled robots. The purpose of this grad project is to gain hands-on experience with the capabilities of the Proximal Policy Optimization (PPO) algorithm in learning and performing lane-following tasks (Schulman et al, 2017). The initial goal was to compare it with a PID controller implementation, but that part was omitted from this project.
 
 For this project, I worked with Gym-Duckietown, a Duckietown simulator built on OpenAI’s Gym. This simulator allows full customization and simulation of the entire Duckietown environment. Using the simulator not only alleviates the challenges of working with real robots, but also enables large-scale generation of observations for training reinforcement learning agents.
 
@@ -58,7 +59,7 @@ Here are the PPO hyperparameters
 | ------------- | ------------- |
 | total_timesteps  | 1e6 |
 | batch_size  | 2048 |
-| mini batch_size  | 2048  32 |
+| mini batch_size  | 2048 / 32 |
 | $$\gamma$$  |   0.99 |
 | GAE $$\lambda$$  |   0.95 |
 | update epoch  | 10 |
@@ -74,8 +75,10 @@ I do 1 million simulation steps. I do a PPO update every 2028 simulation steps.
 Therefore, there are  ~ 1 million / 2048 = 488 total PPO updates. 
 An evaluation was conducted every 10 PPO updates, leading to a total of 48 evaluations throughout the training process.
 
+See my evaluation implementation [here](https://github.com/TruongGiangPham-1/CMPUT503FinalProject/blob/b2ad23cd2b8f44ad6b1dbe2e28fb0e3118c635f7/utils.py#L81)
+
 ### 3. Image Pre-Processing
-I mimic image processing from Atari DQN.
+I mimic image processing from Atari DQN (Minh et al, 2013). 
 Each observation from the simulator is a 480x640x3 image.
 
 First I greyscale the image to 480x640 image.
@@ -94,6 +97,8 @@ For frame skipping, I retained every fourth observation and discarded the others
 From the retained frames, I stacked four consecutive observations to construct the final state, resulting in a 4×84×84 tensor.
 For better explanation, see the this blog [post](https://danieltakeshi.github.io/2016/11/25/frame-skipping-and-preprocessing-for-deep-q-networks-on-atari-2600-games/).
 
+See my implementation [here](https://github.com/TruongGiangPham-1/CMPUT503FinalProject/blob/b2ad23cd2b8f44ad6b1dbe2e28fb0e3118c635f7/utils.py#L22)
+
 ## Results
 ### 1. Straight Road
 
@@ -110,7 +115,7 @@ For better explanation, see the this blog [post](https://danieltakeshi.github.io
     <img src="{{site.baseurl}}/assets/images/grad/PPO_straight_road_duration.png" alt="maes" width="500" >
 </p>
 
-I averaged across 3 seeds. Each seed is the grey curve. The red curve is the running average.
+I averaged the results across three random seeds—each shown as a grey curve. The red curve represents the running average.
 
 There is no learning going on as expected.
 Some of the reason why is mentioned in the limitation.
@@ -170,3 +175,5 @@ Duckietown has alot of maps.
 Schulman, J., Wolski, F., Dhariwal, P., Radford, A., & Klimov, O. (2017). Proximal Policy Optimization Algorithms. ArXiv, abs/1707.06347. Retrieved from https://api.semanticscholar.org/CorpusID:28695052
 
 Huang, S., Dossa, R. F. J., Ye, C., Braga, J., Chakraborty, D., Mehta, K., & Araújo, J. G. M. (2022). CleanRL: High-quality Single-file Implementations of Deep Reinforcement Learning Algorithms. Journal of Machine Learning Research, 23(274), 1–18. Retrieved from http://jmlr.org/papers/v23/21-1342.html
+
+Mnih, V., Kavukcuoglu, K., Silver, D., Graves, A., Antonoglou, I., Wierstra, D., & Riedmiller, M. A. (2013). Playing Atari with Deep Reinforcement Learning. CoRR, abs/1312.5602. Retrieved from http://arxiv.org/abs/1312.5602
