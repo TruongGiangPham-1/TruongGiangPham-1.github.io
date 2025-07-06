@@ -12,6 +12,9 @@ layout: base
   <ul class="412-report-list">
     {%- assign a1_date = "2024-01-29" | default: "%b %-d, %Y" -%}
     {%- assign a2_date = "2024-02-07" | default: "%b %-d, %Y" -%}
+    {%- assign a3_date = "2024-03-07" | default: "%b %-d, %Y" -%}
+    {%- assign a4_date = "2024-03-25" | default: "%b %-d, %Y" -%}
+    {%- assign a5_date = "2024-04-15" | default: "%b %-d, %Y" -%}
     <li>
       <span class="412report-meta">{{ a1_date }}</span>
       <h3>
@@ -25,6 +28,30 @@ layout: base
       <h3>
         <a class="412report-link" href="{{ '412-projects/A2'  | relative_url }}">
             Lab 2 - ROS Development and Kinematics
+        </a>
+      </h3>
+    </li>
+    <li>
+      <span class="412report-meta">{{ a3_date }}</span>
+      <h3>
+        <a class="412report-link" href="{{ '412-projects/A3'  | relative_url }}">
+            Lab 3 - Computer Vision and Controllers for Robotics
+        </a>
+      </h3>
+    </li>
+    <li>
+      <span class="412report-meta">{{ a4_date }}</span>
+      <h3>
+        <a class="412report-link" href="{{ '412-projects/A4'  | relative_url }}">
+            Lab 4 - AprilTag Detection and Safety with Robots
+        </a>
+      </h3>
+    </li>
+    <li>
+      <span class="412report-meta">{{ a5_date }}</span>
+      <h3>
+        <a class="412report-link" href="{{ '412-projects/grad'  | relative_url }}">
+            RL with Duckiebots simulator
         </a>
       </h3>
     </li>
