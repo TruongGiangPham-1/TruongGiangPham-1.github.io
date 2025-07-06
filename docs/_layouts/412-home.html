@@ -10,12 +10,21 @@ layout: base
   {{ content }}
 
   <ul class="412-report-list">
+    {%- assign a1_date = "2024-01-29" | default: "%b %-d, %Y" -%}
+    {%- assign a2_date = "2024-02-07" | default: "%b %-d, %Y" -%}
     <li>
-      {%- assign a1_date = "2024-01-29" | default: "%b %-d, %Y" -%}
       <span class="412report-meta">{{ a1_date }}</span>
       <h3>
         <a class="412report-link" href="{{ '412-projects/A1'  | relative_url }}">
-            Lab 1
+            Lab 1 - Duckiebot setup
+        </a>
+      </h3>
+    </li>
+    <li>
+      <span class="412report-meta">{{ a2_date }}</span>
+      <h3>
+        <a class="412report-link" href="{{ '412-projects/A2'  | relative_url }}">
+            Lab 2 - ROS Development and Kinematics
         </a>
       </h3>
     </li>
