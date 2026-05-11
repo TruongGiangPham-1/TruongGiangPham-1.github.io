@@ -1,0 +1,43 @@
+# Each project block renders one entry on /projects/.
+# Required: title, description
+# Optional: url, repo, image, date, tags
+#
+# `url`   — where the title links to. Use an external URL or a site path
+#           like "/412-projects/". If omitted, the title is plain text.
+# `repo`  — source code link shown in parentheses after the title.
+# `image` — path to a thumbnail under /assets/, e.g. "/assets/images/foo.png".
+# `date`  — free-form, e.g. "2025" or "May 2025"; shown as muted meta text.
+# `tags`  — list of short keywords.
+
+- title: Multi-Agent RL in Overcooked
+  date: 2025
+  description: >-
+    Multi-agent PPO trained directly inside an Overcooked-AI web server,
+    deployed on an HPC cluster, with an XAI layer for human-AI teaming.
+  url: https://multistewzz.com/login
+  repo: https://github.com/TruongGiangPham-1/MARL
+  tags: [RL, Multi-agent, PyTorch]
+
+- title: Gazprea Compiler
+  date: 2024
+  description: >-
+    A compiler for the Gazprea language (IBM) written in C++, emitting MLIR-IR
+    in the LLVM dialect. Built type checking and symbol table AST passes; handles
+    DFS, Fibonacci, and 8-Queens.
+  tags: [C++, MLIR, Compilers]
+
+- title: Robotics in Duckietown
+  date: 2024
+  description: >-
+    PID-controlled wheeled robot navigating a real-world Duckietown course —
+    CMPUT 412 lab series.
+  url: /412-projects/
+  tags: [Robotics, ROS, CV]
+
+- title: Modular Construction RL (PCL)
+  date: 2024
+  description: >-
+    DQN and PPO agents trained with RayRLlib on an HPC cluster, in a custom
+    environment modelling modular construction tasks. GitHub Actions caching
+    workflows for Python builds.
+  tags: [RL, RayRLlib]

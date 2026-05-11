@@ -1,0 +1,54 @@
+---
+layout: base
+---
+<article class="page">
+  <header class="page-header">
+    <h1 class="page-title">{{ page.title | default: "Projects" }}</h1>
+    {%- if page.lede -%}
+      <p class="page-lede">{{ page.lede }}</p>
+    {%- endif -%}
+  </header>
+
+  <div class="page-content-body">
+    {{ content }}
+  </div>
+
+  <ul class="project-list">
+    {%- for p in site.data.projects -%}
+      <li class="project-item">
+        {%- if p.image -%}
+          <img class="project-thumb" src="{{ p.image | relative_url }}" alt="">
+        {%- endif -%}
+
+        <div class="project-body">
+          <h2 class="project-title">
+            {%- if p.url -%}
+              <a href="{{ p.url | relative_url }}">{{ p.title | escape }}</a>
+            {%- else -%}
+              {{ p.title | escape }}
+            {%- endif -%}
+            {%- if p.repo -%}
+              <span class="project-repo">(<a href="{{ p.repo }}">source</a>)</span>
+            {%- endif -%}
+          </h2>
+
+          {%- if p.date -%}
+            <p class="project-meta">{{ p.date }}</p>
+          {%- endif -%}
+
+          {%- if p.description -%}
+            <p class="project-desc">{{ p.description }}</p>
+          {%- endif -%}
+
+          {%- if p.tags and p.tags.size > 0 -%}
+            <ul class="project-tags">
+              {%- for tag in p.tags -%}
+                <li>{{ tag }}</li>
+              {%- endfor -%}
+            </ul>
+          {%- endif -%}
+        </div>
+      </li>
+    {%- endfor -%}
+  </ul>
+</article>
