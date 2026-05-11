@@ -26,8 +26,8 @@ permalink: /resume/
 ## Employment
 
 ### IRL Lab — University of Alberta
-*May 2025 – Aug 2025*
-
+*May 2024 – Aug 2026*
+- Supervised by Matthew E. Taylor.
 - Collaboration with Aggregate Intellect Inc to develop Overcooked-AI web server for human-AI teaming.
 - Agents are trained using multi-agent PPO directly inside the web server.
 - Responsible for the RL integration, putting the web server on HPC cluster for training, and human-AI teaming pipeline with XAI.
@@ -43,7 +43,7 @@ permalink: /resume/
 ### Teaching Assistant — University of Alberta
 *Sep 2022 – Dec 2025*
 
-- Courses: Algorithms, Formal Systems and Logic for CS.
+- Courses: Algorithms, Formal Systems and Logic for CS, Statistical Foundations for Data Science and AI, Fundamental Data Analytics and Visualization.
 
 ---
 
