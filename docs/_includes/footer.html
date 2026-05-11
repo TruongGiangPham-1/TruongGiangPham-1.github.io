@@ -1,0 +1,33 @@
+<footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <p class="footer-name">{{ site.author.name | default: site.title }}</p>
+        {%- if site.author.location -%}
+          <p class="footer-meta">{{ site.author.location }}</p>
+        {%- endif -%}
+      </div>
+
+      <div class="footer-col">
+        <ul class="social-list">
+          {%- if site.social.email and site.social.email != "" -%}
+            <li><a href="mailto:{{ site.social.email }}">Email</a></li>
+          {%- endif -%}
+          {%- if site.social.github and site.social.github != "" -%}
+            <li><a href="https://github.com/{{ site.social.github }}" rel="me noopener">GitHub</a></li>
+          {%- endif -%}
+          {%- if site.social.linkedin and site.social.linkedin != "" -%}
+            <li><a href="https://www.linkedin.com/in/{{ site.social.linkedin }}" rel="me noopener">LinkedIn</a></li>
+          {%- endif -%}
+          {%- if site.social.twitter and site.social.twitter != "" -%}
+            <li><a href="https://twitter.com/{{ site.social.twitter }}" rel="me noopener">Twitter</a></li>
+          {%- endif -%}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-end">
+        <p class="footer-meta">&copy; {{ 'now' | date: "%Y" }} {{ site.author.name | default: site.title }}</p>
+      </div>
+    </div>
+  </div>
+</footer>
