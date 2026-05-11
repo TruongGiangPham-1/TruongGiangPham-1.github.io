@@ -9,11 +9,11 @@ url: "http://TruongGiangPham-1.github.io"
 # Author / hero
 author:
   name: Truong-Giang Pham
-  tagline: Student, robotics & ML enthusiast
+  tagline: Student
   bio: >-
-    I'm a computing science student at the University of Alberta interested in
-    mobile robotics, reinforcement learning, and the systems that make them
-    work. This site collects my coursework, paper notes, and side projects.
+    I'm a Computing Science MSc. student at the University of Alberta supervised by 
+    Matthew E. Taylor and Adam S. Parker. Currently researching Multi-agent Reinforcement learning
+    and Human-AI Collaboration.
   photo: /assets/images/avatar.jpg
   location: Edmonton, Alberta, CA
 
