@@ -15,14 +15,15 @@ author:
     mobile robotics, reinforcement learning, and the systems that make them
     work. This site collects my coursework, paper notes, and side projects.
   photo: /assets/images/avatar.jpg
-  location: Edmonton, Canada
+  location: Edmonton, Alberta, CA
 
 # Social links — leave blank to hide
 social:
   github: TruongGiangPham-1
-  linkedin: ""
+  linkedin: "https://www.linkedin.com/in/truong-pham-1b0860210/"
   twitter: ""
   email: truonggi@ualberta.ca
+  mobile: "+1-780-266-7479"
 
 # Build settings — no theme (custom layouts in _layouts/)
 plugins:

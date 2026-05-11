@@ -16,9 +16,6 @@ layout: base
     {%- endif -%}
 
     <ul class="hero-links">
-      {%- if site.social.email and site.social.email != "" -%}
-        <li><a href="mailto:{{ site.social.email }}">Email</a></li>
-      {%- endif -%}
       {%- if site.social.github and site.social.github != "" -%}
         <li><a href="https://github.com/{{ site.social.github }}">GitHub</a></li>
       {%- endif -%}
@@ -31,6 +28,32 @@ layout: base
 
 {{ content }}
 
+<section class="contacts">
+  <h2 class="section-heading">Contacts</h2>
+  <dl class="contact-list">
+    {%- if site.author.location and site.author.location != "" -%}
+      <dt>Location</dt>
+      <dd>{{ site.author.location }}</dd>
+    {%- endif -%}
+
+    {%- if site.social.mobile and site.social.mobile != "" -%}
+      <dt>Mobile</dt>
+      <dd><a href="tel:{{ site.social.mobile | remove: ' ' | remove: '-' }}">{{ site.social.mobile }}</a></dd>
+    {%- endif -%}
+
+    {%- if site.social.mobile_text and site.social.mobile_text != "" -%}
+      <dt>Mobile (text only)</dt>
+      <dd><a href="sms:{{ site.social.mobile_text | remove: ' ' | remove: '-' }}">{{ site.social.mobile_text }}</a></dd>
+    {%- endif -%}
+
+    {%- if site.social.email and site.social.email != "" -%}
+      <dt>Email</dt>
+      <dd><a href="mailto:{{ site.social.email }}">{{ site.social.email }}</a></dd>
+    {%- endif -%}
+  </dl>
+</section>
+
+{%- comment -%}
 <section class="card-section">
   <h2 class="section-heading">412 Projects</h2>
   <p class="section-lede">CMPUT 412 — Experimental Mobile Robotics. Reports from each lab.</p>
@@ -68,3 +91,4 @@ layout: base
   </ul>
 </section>
 {%- endif -%}
+{%- endcomment -%}
