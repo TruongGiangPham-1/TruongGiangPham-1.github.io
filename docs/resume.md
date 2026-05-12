@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Truong-Giang Pham
+title: Truong-Giang Pham 📜
 permalink: /resume/
 ---
 
@@ -23,13 +23,13 @@ permalink: /resume/
 
 ---
 
-## Employment
+## Employment 🧑🏻‍💼
 
 ### [IRL Lab — University of Alberta](https://irll.ca/)
 *May 2024 – Aug 2026*
 - Supervised by Matthew E. Taylor.
 - Collaboration with Aggregate Intellect Inc to develop Overcooked-AI web server for human-AI teaming.
-- Agents are trained using multi-agent PPO directly inside the web server.
+- Agents are trained using multi-agent PPO directly inside the web server. 
 - Responsible for the RL integration, putting the web server on HPC cluster for training, and human-AI teaming pipeline with Explainable AI (XAI).
 - [multistewzz.com/login](https://multistewzz.com/login)
 
@@ -52,7 +52,7 @@ permalink: /resume/
 
 ---
 
-## Education
+## Education 🧑🏻‍🎓
 
 ### MSc Computing Sciences — University of Alberta
 *September 2024 – August 2026* &middot; Edmonton, AB
@@ -66,7 +66,7 @@ permalink: /resume/
 
 ---
 
-## Projects
+## Projects 🚀
 
 ### Gazprea Compiler
 [Language Specification](https://cmput415.github.io/415-docs/setup/)
@@ -96,7 +96,7 @@ JWT in backend.
 
 ---
 
-## Technical Skills
+## Technical Skills ⚙️
 
 - **Languages:** C/C++, Python, Java, Assembly (RISC-V, x86, ARM), JavaScript / TypeScript
 - **Frameworks / Libraries:** React, React Native, Django, PyTorch
