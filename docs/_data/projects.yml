@@ -9,7 +9,7 @@
 # `date`  — free-form, e.g. "2025" or "May 2025"; shown as muted meta text.
 # `tags`  — list of short keywords.
 
-- title: Multi-Agent RL in Overcooked
+- title: Multi-Agent RL in Overcooked 👨‍🍳
   date: 2025
   description: >-
     Multi-agent PPO trained directly inside an Overcooked-AI web server,
@@ -19,7 +19,7 @@
   tags: [RL, Multi-agent, PyTorch]
 
 
-- title: Deep RL for industrial modular construction
+- title: Deep RL for industrial modular construction 🏗️
   date: 2024
   description: >-
     DQN and PPO agents trained with RayRLlib on an HPC cluster, in a custom
@@ -28,7 +28,7 @@
   url: /assets/DeepRL_For_Construction_Report.pdf
   tags: [RL, RayRLlib]
 
-- title: Robotics in Duckietown
+- title: Robotics in Duckietown 🤖
   date: 2024
   description: >-
     PID-controlled wheeled robot navigating a real-world Duckietown course —
