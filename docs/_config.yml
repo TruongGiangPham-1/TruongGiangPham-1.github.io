@@ -12,7 +12,10 @@ author:
   tagline: Student
   bio: >-
     I'm a Computing Science MSc. student at the University of Alberta supervised by 
-    Matthew E. Taylor and Adam S. Parker. Currently researching Multi-agent Reinforcement learning
+    <a href="https://drmatttaylor.net/">Matthew E. Taylor</a> and 
+    <a href="https://asrparker.github.io/AdamSRParker/">Adam S. Parker</a>
+    in the <a href="https://irll.ca/">Interactive Robot Learning (IRL) Lab </a>. 
+    Currently researching Multi-agent Reinforcement learning
     and Human-AI Collaboration.
   photo: /assets/images/avatar.jpg
   location: Edmonton, Alberta, CA

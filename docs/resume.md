@@ -25,7 +25,7 @@ permalink: /resume/
 
 ## Employment
 
-### IRL Lab — University of Alberta
+### [IRL Lab — University of Alberta](https://irll.ca/)
 *May 2024 – Aug 2026*
 - Supervised by Matthew E. Taylor.
 - Collaboration with Aggregate Intellect Inc to develop Overcooked-AI web server for human-AI teaming.
