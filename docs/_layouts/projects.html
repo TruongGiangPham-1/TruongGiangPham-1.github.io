@@ -31,7 +31,10 @@ layout: base
               <span class="project-kind" aria-label="PDF document">PDF</span>
             {%- endif -%}
             {%- if p.repo -%}
-              <span class="project-repo">(<a href="{{ p.repo }}">source</a>)</span>
+              <span class="project-repo">(<a href="{{ p.repo }}">Github</a>)</span>
+            {%- endif -%}
+            {%- if p.url and p.url contains "youtube.com" -%}
+              <span class="project-kind" aria-label="videoLink">Video</span>
             {%- endif -%}
           </h2>
 

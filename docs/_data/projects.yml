@@ -34,6 +34,7 @@
     PID-controlled wheeled robot navigating a real-world Duckietown course —
     CMPUT 412 lab series.
   url: /412-projects/
+  repo: https://github.com/NicolasOng/CMPUT503
   tags: [Robotics, ROS, CV, Python]
 
 - title: Gazprea Compiler
@@ -50,6 +51,7 @@
     Implementation of Parallel sorting by regular sorting algorithm proposed by Li et al. 
     Did benchmark on 128 cores machine to experiment with the results in the paper.
   url: https://github.com/TruongGiangPham-1/Parallel-sorting-by-regular-sampling-implementation
+  repo: https://github.com/TruongGiangPham-1/Parallel-sorting-by-regular-sampling-implementation
   tags: [C++, MPI, Pthread Programming]
 
 - title: Union 
