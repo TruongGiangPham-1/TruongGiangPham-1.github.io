@@ -16,16 +16,22 @@
   --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
 }
 
+@mixin dark-tokens {
+  --bg: #16161a;
+  --surface: #1d1d22;
+  --text: #ececec;
+  --muted: #9a9aa3;
+  --rule: #2a2a30;
+  --accent: #d6a06b;
+  --accent-hover: #e8b988;
+}
+
+/* Explicit toggle (JS sets data-theme). */
+:root[data-theme="dark"] { @include dark-tokens; }
+
+/* No-JS fallback: only applies when data-theme isn't already set. */
 @media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #16161a;
-    --surface: #1d1d22;
-    --text: #ececec;
-    --muted: #9a9aa3;
-    --rule: #2a2a30;
-    --accent: #d6a06b;
-    --accent-hover: #e8b988;
-  }
+  :root:not([data-theme]) { @include dark-tokens; }
 }
 
 /* ---------- Base ---------- */
@@ -124,6 +130,31 @@ blockquote {
 
 .nav-trigger { display: none; }
 .nav-toggle { display: none; }
+
+/* Theme toggle button — sits inside .site-nav, after .nav-links */
+.site-nav { display: flex; align-items: center; gap: 14px; }
+.theme-toggle {
+  background: transparent;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--muted);
+  transition: color .15s ease, border-color .15s ease, background .15s ease;
+}
+.theme-toggle:hover {
+  color: var(--text);
+  border-color: var(--text);
+}
+.theme-icon { display: none; line-height: 0; }
+.theme-icon .contact-icon { margin: 0; vertical-align: 0; }
+:root[data-theme="dark"] .theme-icon--sun  { display: inline-flex; }
+:root:not([data-theme="dark"]) .theme-icon--moon { display: inline-flex; }
 
 .nav-links { display: flex; gap: 22px; }
 .nav-link {
