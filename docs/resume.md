@@ -30,7 +30,7 @@ permalink: /resume/
 - Supervised by Matthew E. Taylor.
 - Collaboration with Aggregate Intellect Inc to develop Overcooked-AI web server for human-AI teaming.
 - Agents are trained using multi-agent PPO directly inside the web server.
-- Responsible for the RL integration, putting the web server on HPC cluster for training, and human-AI teaming pipeline with XAI.
+- Responsible for the RL integration, putting the web server on HPC cluster for training, and human-AI teaming pipeline with Explainable AI (XAI).
 - [multistewzz.com/login](https://multistewzz.com/login)
 
 ### RL Researcher — PCL / University of Alberta
@@ -41,9 +41,14 @@ permalink: /resume/
 - Set up caching GitHub Action workflows for Python applications.
 
 ### Teaching Assistant — University of Alberta
-*Sep 2022 – Dec 2025*
+*Sep 2022 – Aug 2026*
 
-- Courses: Algorithms, Formal Systems and Logic for CS, Statistical Foundations for Data Science and AI, Fundamental Data Analytics and Visualization.
+- **Courses**: Algorithms (CMPUT 204), Formal Systems and Logic for CS (CMPUT 272), Statistical Foundations for Data Science and AI (DATA 521), Fundamental Data Analytics and Visualization 
+ (DATA 517) .
+- Presented and discussed challenging Algorithmic problems in a seminar with 100+ students weekly
+(CMPUT 204, CMPUT 272).
+- Create, proctor, and mark exams with other TAs.
+- Developed interactive course content and assessments for graduate-level data science courses covering statistical foundations, probability, and data visualization at the university level. (DATA 517, DATA 521).
 
 ---
 
@@ -75,6 +80,13 @@ permalink: /resume/
 ### Robotics in Duckietown
 - PID-controlled wheeled robot in the real world.
 - [412 Projects]({{ '/412-projects/' | relative_url }})
+
+### Unione: Full-stack react-native App
+[video](https://www.youtube.com/watch?v=GjZJ43cEKqQ&t=1s)
+- Collaborated in creating a cross-platform mobile app using React Native(Expo), ensuring seamless user experience and availability on both iOS and Android
+- Implemented Authentication and session management system with google-Oauth in frontend and Django
+JWT in backend.
+- Planning using Storyboarding, sprint planning, user story point estimations, UML sequence diagram, and Figma; Scrum team that held weekly meeting.
 
 ---
 
