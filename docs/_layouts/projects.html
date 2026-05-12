@@ -27,6 +27,9 @@ layout: base
             {%- else -%}
               {{ p.title | escape }}
             {%- endif -%}
+            {%- if p.url and p.url contains ".pdf" -%}
+              <span class="project-kind" aria-label="PDF document">PDF</span>
+            {%- endif -%}
             {%- if p.repo -%}
               <span class="project-repo">(<a href="{{ p.repo }}">source</a>)</span>
             {%- endif -%}

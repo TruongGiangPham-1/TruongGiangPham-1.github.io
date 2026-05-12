@@ -329,6 +329,20 @@ blockquote {
 .project-repo a { color: var(--muted); }
 .project-repo a:hover { color: var(--accent); }
 
+.project-kind {
+  display: inline-block;
+  font-size: .65rem;
+  font-weight: 600;
+  letter-spacing: .04em;
+  color: var(--muted);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  padding: 1px 6px;
+  margin-left: 8px;
+  vertical-align: 2px;
+  text-transform: uppercase;
+}
+
 .project-meta {
   margin: 0 0 8px;
   font-size: .85rem;

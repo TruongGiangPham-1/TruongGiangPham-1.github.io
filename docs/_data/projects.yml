@@ -18,13 +18,15 @@
   repo: https://github.com/TruongGiangPham-1/MARL
   tags: [RL, Multi-agent, PyTorch]
 
-- title: Gazprea Compiler
+
+- title: Deep RL for industrial modular construction
   date: 2024
   description: >-
-    A compiler for the Gazprea language (IBM) written in C++, emitting MLIR-IR
-    in the LLVM dialect. Built type checking and symbol table AST passes; handles
-    DFS, Fibonacci, and 8-Queens.
-  tags: [C++, LLVM, MLIR, Compilers]
+    DQN and PPO agents trained with RayRLlib on an HPC cluster, in a custom
+    environment modelling modular construction tasks. GitHub Actions caching
+    workflows for Python builds.
+  url: /assets/DeepRL_For_Construction_Report.pdf
+  tags: [RL, RayRLlib]
 
 - title: Robotics in Duckietown
   date: 2024
@@ -34,8 +36,16 @@
   url: /412-projects/
   tags: [Robotics, ROS, CV, Python]
 
+- title: Gazprea Compiler
+  date: 2023
+  description: >-
+    A compiler for the Gazprea language (IBM) written in C++, emitting MLIR-IR
+    in the LLVM dialect. Built type checking and symbol table AST passes; handles
+    DFS, Fibonacci, and 8-Queens.
+  tags: [C++, LLVM, MLIR, Compilers]
+
 - title: Parallel Sorting By Regular Sampling 
-  date: 2024
+  date: 2023
   description: >-
     Implementation of Parallel sorting by regular sorting algorithm proposed by Li et al. 
     Did benchmark on 128 cores machine to experiment with the results in the paper.
@@ -49,10 +59,3 @@
   url: https://www.youtube.com/watch?v=GjZJ43cEKqQ&t=1s
   tags: [React-native, Javascript]
 
-- title: Modular Construction RL (PCL)
-  date: 2024
-  description: >-
-    DQN and PPO agents trained with RayRLlib on an HPC cluster, in a custom
-    environment modelling modular construction tasks. GitHub Actions caching
-    workflows for Python builds.
-  tags: [RL, RayRLlib]
