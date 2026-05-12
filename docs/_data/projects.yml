@@ -24,7 +24,7 @@
     A compiler for the Gazprea language (IBM) written in C++, emitting MLIR-IR
     in the LLVM dialect. Built type checking and symbol table AST passes; handles
     DFS, Fibonacci, and 8-Queens.
-  tags: [C++, MLIR, Compilers]
+  tags: [C++, LLVM, MLIR, Compilers]
 
 - title: Robotics in Duckietown
   date: 2024
@@ -32,7 +32,22 @@
     PID-controlled wheeled robot navigating a real-world Duckietown course —
     CMPUT 412 lab series.
   url: /412-projects/
-  tags: [Robotics, ROS, CV]
+  tags: [Robotics, ROS, CV, Python]
+
+- title: Parallel Sorting By Regular Sampling 
+  date: 2024
+  description: >-
+    Implementation of Parallel sorting by regular sorting algorithm proposed by Li et al. 
+    Did benchmark on 128 cores machine to experiment with the results in the paper.
+  url: https://github.com/TruongGiangPham-1/Parallel-sorting-by-regular-sampling-implementation
+  tags: [C++, MPI, Pthread Programming]
+
+- title: Union 
+  date: 2023
+  description: >-
+    Full-stack reac-native App. A matching App used to make friends on campus.
+  url: https://www.youtube.com/watch?v=GjZJ43cEKqQ&t=1s
+  tags: [React-native, Javascript]
 
 - title: Modular Construction RL (PCL)
   date: 2024
