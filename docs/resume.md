@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Resume
+title: Truong-Giang Pham
 permalink: /resume/
 ---
 
-**Truong-Giang Pham** &middot; Edmonton, AB, CA &middot; Canadian Citizen
+<p><svg class="contact-icon" viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M8 0a5 5 0 00-5 5c0 3.5 5 11 5 11s5-7.5 5-11a5 5 0 00-5-5zm0 7a2 2 0 110-4 2 2 0 010 4z"/></svg> Edmonton, AB, CA &middot; Canadian Citizen</p>
 
 <div class="contact-stack">
   <div>Email: <a href="mailto:truonggi@ualberta.ca">truonggi@ualberta.ca</a></div>
@@ -69,6 +69,7 @@ permalink: /resume/
 ## Projects
 
 ### Gazprea Compiler
+[Language Specification](https://cmput415.github.io/415-docs/setup/)
 - A compiler for the Gazprea language (developed by IBM), written collaboratively with a team of 4 in C++ emitting MLIR-IR code (LLVM dialect).
 - Capable of compiling advanced programs such as depth-first search, Fibonacci sequence, and 8-Queens.
 - Built two AST passes for type checking and symbol table management.
