@@ -37,7 +37,7 @@ permalink: /resume/
 *May 2024 – Aug 2024*
 
 - Collaboration with PCL to develop Reinforcement Learning solutions for modular construction tasks.
-- Developed an environment that models modular construction and trained RL algorithms like DQN and PPO using RayRllib on an HPC cluster.
+- Developed an environment that models industrial modular construction and experimented with RL algorithms like DQN and PPO using RayRllib on an HPC cluster.
 - Set up caching GitHub Action workflows for Python applications.
 
 ### Teaching Assistant — University of Alberta
