@@ -349,16 +349,12 @@ blockquote {
   font-size: 1.1rem;
   font-weight: 600;
 }
-.project-title a { color: var(--text); }
-.project-title a:hover { color: var(--accent); }
 .project-repo {
   font-size: .9rem;
   font-weight: 400;
   color: var(--muted);
   margin-left: 6px;
 }
-.project-repo a { color: var(--muted); }
-.project-repo a:hover { color: var(--accent); }
 
 .project-kind {
   display: inline-block;
