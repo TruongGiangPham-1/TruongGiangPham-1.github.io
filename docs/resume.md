@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Truong-Giang Pham 📜
+title: Truong Giang Pham Resume📜
 permalink: /resume/
 ---
 
