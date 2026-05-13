@@ -8,7 +8,6 @@ permalink: /resume/
 
 <div class="contact-stack">
   <div>Email: <a href="mailto:truonggi@ualberta.ca">truonggi@ualberta.ca</a></div>
-  <div>Cell: <a href="tel:+17802667479">+1 (780) 266-7479</a></div>
   <div>
     {% include icon.html name="github" %}
     <a href="https://github.com/TruongGiangPham-1">github.com/TruongGiangPham-1</a>
