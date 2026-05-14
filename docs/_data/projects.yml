@@ -14,7 +14,7 @@
   description: >-
     Multi-agent PPO trained directly inside an Overcooked-AI web server,
     deployed on an HPC cluster, with an XAI layer for human-AI teaming.
-  url: https://multistewzz.com/login
+  url: https://github.com/TruongGiangPham-1/MARL
   repo: https://github.com/TruongGiangPham-1/MARL
   tags: [RL, Multi-agent, PyTorch]
 
