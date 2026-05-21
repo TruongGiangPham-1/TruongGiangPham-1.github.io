@@ -19,6 +19,7 @@ author:
     and Human-AI Collaboration.
   photo: /assets/images/Truong.jpg
   location: Edmonton, Alberta, CA
+  status: Canadian Citizen
 
 # Social links — leave blank to hide
 social:
@@ -26,6 +27,7 @@ social:
   linkedin: "truong-pham-1b0860210"
   twitter: ""
   email: truonggi@ualberta.ca
+  email_secondary: johnpham4648@gmail.com
   mobile: ""
 
 # Build settings — no theme (custom layouts in _layouts/)

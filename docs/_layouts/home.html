@@ -36,6 +36,11 @@ layout: base
       <dd>{{ site.author.location }}</dd>
     {%- endif -%}
 
+    {%- if site.author.status and site.author.status != "" -%}
+      <dt>Status</dt>
+      <dd>{{ site.author.status }}</dd>
+    {%- endif -%}
+
     {%- if site.social.mobile and site.social.mobile != "" -%}
       <dt>Mobile</dt>
       <dd><a href="tel:{{ site.social.mobile | remove: ' ' | remove: '-' }}">{{ site.social.mobile }}</a></dd>
@@ -49,6 +54,11 @@ layout: base
     {%- if site.social.email and site.social.email != "" -%}
       <dt>Email</dt>
       <dd><a href="mailto:{{ site.social.email }}">{{ site.social.email }}</a></dd>
+    {%- endif -%}
+
+    {%- if site.social.email_secondary and site.social.email_secondary != "" -%}
+      <dt>Email (secondary)</dt>
+      <dd><a href="mailto:{{ site.social.email_secondary }}">{{ site.social.email_secondary }}</a></dd>
     {%- endif -%}
   </dl>
 </section>
