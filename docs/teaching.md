@@ -25,6 +25,9 @@ I've also supervised undergraduate students with their research, including stude
           height="628" width="504" frameborder="0" allowfullscreen=""
           title="Overcooked-2 with PS4 controllers — LinkedIn post"
           loading="lazy"></iframe>
+  <p class="linkedin-embed-caption">
+    Can't see the embed? <a href="https://www.linkedin.com/posts/zachary-tang-463453333_we-brought-overcooked-2-and-ps4-controllers-ugcPost-7436952101957812226-0cCD/">View the post on LinkedIn</a>.
+  </p>
 </div>
 
 ---
