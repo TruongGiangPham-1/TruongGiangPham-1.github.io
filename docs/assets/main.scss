@@ -313,6 +313,20 @@ blockquote {
   .contact-list dd { margin-bottom: 8px; }
 }
 
+/* ---------- LinkedIn embed ---------- */
+.linkedin-embed {
+  margin: 16px 0 8px;
+  max-width: 504px;
+}
+.linkedin-embed iframe {
+  display: block;
+  width: 100%;
+  max-width: 504px;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  background: var(--surface);
+}
+
 /* ---------- Project list ---------- */
 .page-lede {
   color: var(--muted);
