@@ -18,7 +18,7 @@ permalink: /resume/
   </div>
 </div>
 
-[Download PDF]({{ '/assets/TruongResume_2026MAY11.pdf' | relative_url }})
+[Download PDF]({{ '/assets/TruongResume.pdf' | relative_url }})
 
 ---
 
@@ -27,9 +27,9 @@ permalink: /resume/
 ### [IRL Lab — University of Alberta](https://irll.ca/)
 *May 2024 – Aug 2026*
 - Supervised by Matthew E. Taylor.
-- Collaboration with Aggregate Intellect Inc to develop Overcooked-AI web server for human-AI teaming.
-- Agents are trained using multi-agent PPO directly inside the web server. 
-- Responsible for the RL integration, putting the web server on HPC cluster for training, and human-AI teaming pipeline with Explainable AI (XAI).
+- Built **Multi-Stew**, a three-service Overcooked platform for human-AI teaming research with Aggregate Intellect Inc.: Colyseus game server, React frontend over WebSockets, and FastAPI RL server, deployed to a VPS with Docker Compose.
+- Designed the RL server as one endpoint with training, inference, and XAI modes, so a single service both trains agents and serves them to live players.
+- Agents are trained using multi-agent PPO directly inside the web server; training runs on an HPC cluster.
 - [multistewzz.com/login](https://multistewzz.com/login)
 
 ### RL Researcher — PCL / University of Alberta
@@ -56,7 +56,7 @@ permalink: /resume/
 ### MSc Computing Sciences — University of Alberta
 *September 2024 – August 2026* &middot; Edmonton, AB
 
-- Supervised by Matthew E. Taylor and Adam S. Parker.
+- Reinforcement Learning and human-AI teaming. Supervised by Matthew E. Taylor and Adam S. Parker.
 
 ### BSc Computing Science (Honors) — University of Alberta
 *September 2020 – April 2024* &middot; Edmonton, AB &middot; GPA: 3.7
@@ -97,6 +97,7 @@ JWT in backend.
 
 ## Technical Skills ⚙️
 
-- **Languages:** C/C++, Python, Java, Assembly (RISC-V, x86, ARM), JavaScript / TypeScript
-- **Frameworks / Libraries:** React, React Native, Django, PyTorch
-- **Tools:** Git, Linux, ANTLRv4, MLIR, SQL, MongoDB, Android Studio
+- **Languages:** C/C++, Python, Java, Assembly (RISC-V, x86, ARM), JavaScript / TypeScript, SQL
+- **ML & RL:** PyTorch, Ray RLlib, multi-agent RL, HPC / distributed training
+- **Compilers & Systems:** MLIR, LLVM, ANTLRv4, concurrency, parallel programming
+- **Web & Tools:** React, React Native, Node / Colyseus, FastAPI, Django, Docker, Apptainer, Git, GitHub Actions CI, Linux, MongoDB
