@@ -69,6 +69,7 @@ permalink: /resume/
 
 ### Gazprea Compiler
 [Language Specification](https://cmput415.github.io/415-docs/setup/)
+- The project repository is provided upon request.
 - A compiler for the Gazprea language (developed by IBM), written collaboratively with a team of 4 in C++ emitting MLIR-IR code (LLVM dialect).
 - Capable of compiling advanced programs such as depth-first search, Fibonacci sequence, and 8-Queens.
 - Built two AST passes for type checking and symbol table management.
