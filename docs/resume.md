@@ -42,12 +42,12 @@ permalink: /resume/
 ### Teaching Assistant — University of Alberta
 *Sep 2022 – Aug 2026*
 
-- **Courses**: Algorithms (CMPUT 204), Formal Systems and Logic for CS (CMPUT 272), Statistical Foundations for Data Science and AI (DATA 521), Fundamental Data Analytics and Visualization 
- (DATA 517) .
+- **Courses**: Algorithms (CMPUT 204), Formal Systems and Logic for CS (CMPUT 272), Statistical Foundations for Data Science and AI (DATA 521), Fundamental Data Analytics and Visualization, Fundamental Concepts in Artificial Intelligence (AI 519).
 - Presented and discussed challenging Algorithmic problems in a seminar with 100+ students weekly
 (CMPUT 204, CMPUT 272).
 - Create, proctor, and mark exams with other TAs.
-- Developed interactive course content and assessments for graduate-level data science courses covering statistical foundations, probability, and data visualization at the university level. (DATA 517, DATA 521).
+- Helped develop interactive course content and assessments for a graduate-level AI course at the university level (DATA 517, DATA 521, AI 519). 
+- Quality Assurance (QA) for graduate level data science courses (Data 521, Data 517). 
 
 ---
 
@@ -62,6 +62,16 @@ permalink: /resume/
 *September 2020 – April 2024* &middot; Edmonton, AB &middot; GPA: 3.7
 
 - Coursework: Compiler Design; Intermediate Machine Learning; Operating Systems; Databases; Algorithms; Computer Architecture; Web Application and Architecture; Software Development; Parallel and Distributed Systems.
+
+---
+
+## Open Source Contributions 🌱
+
+### [CoGrid](https://github.com/chasemcd/cogrid)
+*Library for creating multi-agent grid-world environments for reinforcement learning research*
+- Extended the Overcooked environment with tomato recipes ([#5](https://github.com/chasemcd/cogrid/pull/5)).
+- Wrote a unit test suite covering pot interactions, soup cooking, and delivery-zone placement.
+- Fixed incorrect encoding in environment documentation.
 
 ---
 
