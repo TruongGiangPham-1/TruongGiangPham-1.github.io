@@ -9,14 +9,13 @@ url: "http://TruongGiangPham-1.github.io"
 # Author / hero
 author:
   name: Truong Giang Pham
-  tagline: Student
+  tagline: Computing Science MSc
   bio: >-
-    I'm a Computing Science MSc. student at the University of Alberta supervised by 
-    <a href="https://drmatttaylor.net/">Matthew E. Taylor</a> and 
+    I recently finished my Computing Science MSc at the University of Alberta, where I was
+    supervised by <a href="https://drmatttaylor.net/">Matthew E. Taylor</a> and
     <a href="https://asrparker.github.io/AdamSRParker/">Adam S. Parker</a>
-    in the <a href="https://irll.ca/">Interactive Robot Learning (IRL) Lab </a>. 
-    Currently researching Multi-agent Reinforcement learning
-    and Human-AI Collaboration.
+    in the <a href="https://irll.ca/">Interactive Robot Learning (IRL) Lab</a>.
+    My research was on multi-agent reinforcement learning and human-AI collaboration.
   photo: /assets/images/Truong.jpg
   location: Edmonton, Alberta, CA
   status: Canadian Citizen
