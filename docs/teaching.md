@@ -34,18 +34,6 @@ I've also supervised undergraduate students with their research, including stude
 
 ## Courses
 
-### CMPUT 204 — Algorithms I
-*Undergraduate &middot; multiple terms*
-
-- Presented and discussed challenging algorithmic problems in a weekly seminar with 100+ students.
-- Held office hours, marked assignments, and contributed to exam preparation.
-
-### CMPUT 272 — Formal Systems and Logic in CS
-*Undergraduate &middot; multiple terms*
-
-- Ran problem-solving seminars; coached students through proofs, propositional & predicate logic, and induction.
-- Created, proctored, and marked exams with the TA team.
-
 ### AI 519 — Fundamental Concepts in Artificial Intelligence
 *Graduate &middot; one term*
 
@@ -65,6 +53,18 @@ Authored two course modules:
 
 - Quality assurance on course material covering analytics workflows and visualization techniques.
 - Wrote some assessments for the course.
+
+### CMPUT 204 — Algorithms I
+*Undergraduate &middot; multiple terms*
+
+- Presented and discussed challenging algorithmic problems in a weekly seminar with 100+ students.
+- Held office hours, marked assignments, and contributed to exam preparation.
+
+### CMPUT 272 — Formal Systems and Logic in CS
+*Undergraduate &middot; multiple terms*
+
+- Ran problem-solving seminars; coached students through proofs, propositional & predicate logic, and induction.
+- Created, proctored, and marked exams with the TA team.
 
 ---
 
