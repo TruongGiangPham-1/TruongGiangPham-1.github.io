@@ -46,15 +46,25 @@ I've also supervised undergraduate students with their research, including stude
 - Ran problem-solving seminars; coached students through proofs, propositional & predicate logic, and induction.
 - Created, proctored, and marked exams with the TA team.
 
-### DATA 521 — Statistical Foundations for Data Science and AI
-*Graduate &middot; one terms*
+### AI 519 — Fundamental Concepts in Artificial Intelligence
+*Graduate &middot; one term*
 
-- Developed interactive course content and assessments covering probability and statistical foundations at the graduate level.
+Authored two course modules:
+
+- **Foundations of AI** — tracing the field from symbolic AI through to deep learning.
+- **Foundations of generative AI** — tokenization, embeddings, and transformer architectures.
+
+### DATA 521 — Statistical Foundations for Data Science and AI
+*Graduate &middot; one term*
+
+- Quality assurance on course material covering probability and statistical foundations.
+- Wrote some assessments for the course.
 
 ### DATA 517 — Fundamental Data Analytics and Visualization
-*Graduate &middot; one terms*
+*Graduate &middot; one term*
 
-- Built course material and assessments covering analytics workflows and visualization techniques.
+- Quality assurance on course material covering analytics workflows and visualization techniques.
+- Wrote some assessments for the course.
 
 ---
 
@@ -62,5 +72,6 @@ I've also supervised undergraduate students with their research, including stude
 
 - **Weekly seminars** — present problems, walk through solution strategies, take live questions.
 - **Assessments** — design, proctor, and grade exams collaboratively with other TAs.
-- **Content development** — author lecture material, lab handouts, and graded assignments for graduate data science courses.
+- **Content development** — author course modules (AI 519) and write assessments for graduate courses.
+- **Quality assurance** — review graduate data science course material before delivery (DATA 517, DATA 521).
 - **Office hours** — one-on-one debugging of student solutions and concepts.
