@@ -63,7 +63,7 @@ Authored two course modules:
 ### CMPUT 272 — Formal Systems and Logic in CS
 *Undergraduate &middot; multiple terms*
 
-- Ran problem-solving seminars; coached students through proofs, propositional & predicate logic, and induction.
+- Ran problem-solving seminars(~100 students); coached students through proofs, propositional & predicate logic, and induction.
 - Created, proctored, and marked exams with the TA team.
 
 ---
