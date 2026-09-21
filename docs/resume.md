@@ -22,6 +22,15 @@ permalink: /resume/
 
 ---
 
+## Technical Skills ⚙️
+
+- **Languages:** C/C++, Python, Java, Assembly (RISC-V, x86, ARM), JavaScript / TypeScript, SQL
+- **ML & RL:** PyTorch, Ray RLlib, multi-agent RL, HPC / distributed training
+- **Compilers & Systems:** MLIR, LLVM, ANTLRv4, concurrency, parallel programming
+- **Web & Tools:** React, React Native, Node / Colyseus, FastAPI, Django, Docker, Apptainer, Git, GitHub Actions CI, Linux, MongoDB
+
+---
+
 ## Employment 🧑🏻‍💼
 
 ### [IRL Lab — University of Alberta](https://irll.ca/)
@@ -42,12 +51,11 @@ permalink: /resume/
 ### Teaching Assistant — University of Alberta
 *Sep 2022 – Aug 2026*
 
-- **Courses**: Algorithms (CMPUT 204), Formal Systems and Logic for CS (CMPUT 272), Statistical Foundations for Data Science and AI (DATA 521), Fundamental Data Analytics and Visualization, Fundamental Concepts in Artificial Intelligence (AI 519).
-- Presented and discussed challenging Algorithmic problems in a seminar with 100+ students weekly
-(CMPUT 204, CMPUT 272).
+- **Courses**: Algorithms (CMPUT 204), Formal Systems and Logic for CS (CMPUT 272), Statistical Foundations for Data Science and AI (DATA 521), Fundamental Data Analytics and Visualization (DATA 517), Fundamental Concepts in Artificial Intelligence (AI 519).
+- Presented and discussed challenging algorithmic problems in a weekly seminar with 100+ students (CMPUT 204, CMPUT 272).
 - Create, proctor, and mark exams with other TAs.
-- Helped develop interactive course content and assessments for a graduate-level AI course at the university level (DATA 517, DATA 521, AI 519). 
-- Quality Assurance (QA) for graduate level data science courses (Data 521, Data 517). 
+- Authored two graduate course modules on the foundations of AI and of generative models (AI 519).
+- Quality assurance and assessment writing for graduate data science courses (DATA 517, DATA 521).
 
 ---
 
@@ -104,11 +112,3 @@ permalink: /resume/
 JWT in backend.
 - Planning using Storyboarding, sprint planning, user story point estimations, UML sequence diagram, and Figma; Scrum team that held weekly meeting.
 
----
-
-## Technical Skills ⚙️
-
-- **Languages:** C/C++, Python, Java, Assembly (RISC-V, x86, ARM), JavaScript / TypeScript, SQL
-- **ML & RL:** PyTorch, Ray RLlib, multi-agent RL, HPC / distributed training
-- **Compilers & Systems:** MLIR, LLVM, ANTLRv4, concurrency, parallel programming
-- **Web & Tools:** React, React Native, Node / Colyseus, FastAPI, Django, Docker, Apptainer, Git, GitHub Actions CI, Linux, MongoDB
