@@ -33,7 +33,7 @@ permalink: /resume/
 
 ## Employment 🧑🏻‍💼
 
-### Software Developer — Synsira
+### Software Developer — [Synsira](https://kind.synsira.com/)
 *Oct 1, 2026 – Present*
 
 ### [IRL Lab — University of Alberta](https://irll.ca/)
