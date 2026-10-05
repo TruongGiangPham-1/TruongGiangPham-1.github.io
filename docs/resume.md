@@ -33,6 +33,9 @@ permalink: /resume/
 
 ## Employment 🧑🏻‍💼
 
+### Software Developer — Synsira
+*Oct 1, 2026 – Present*
+
 ### [IRL Lab — University of Alberta](https://irll.ca/)
 *May 2024 – Aug 2026*
 - Supervised by Matthew E. Taylor.
@@ -111,4 +114,3 @@ permalink: /resume/
 - Implemented Authentication and session management system with google-Oauth in frontend and Django
 JWT in backend.
 - Planning using Storyboarding, sprint planning, user story point estimations, UML sequence diagram, and Figma; Scrum team that held weekly meeting.
-

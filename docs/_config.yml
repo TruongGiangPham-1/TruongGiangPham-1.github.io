@@ -2,16 +2,17 @@
 title: Truong-Giang Pham
 email: truonggi@ualberta.ca
 description: >-
-  Personal website of Truong-Giang Pham — robotics, ML, and systems.
+  Personal website of Truong-Giang Pham, Software Developer at Synsira — robotics, ML, and systems.
 baseurl: ""
 url: "http://TruongGiangPham-1.github.io"
 
 # Author / hero
 author:
   name: Truong Giang Pham
-  tagline: Computing Science MSc
+  tagline: Software Developer at Synsira
   bio: >-
-    I recently finished my Computing Science MSc at the University of Alberta, where I was
+    I am a Software Developer at Synsira.
+    I completed my Computing Science MSc at the University of Alberta, where I was
     supervised by <a href="https://drmatttaylor.net/">Matthew E. Taylor</a> and
     <a href="https://asrparker.github.io/AdamSRParker/">Adam S. Parker</a>
     in the <a href="https://irll.ca/">Interactive Robot Learning (IRL) Lab</a>.
